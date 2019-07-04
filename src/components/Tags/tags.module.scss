@@ -1,0 +1,19 @@
+.Tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+
+  li {
+    padding: 0 5px;
+    margin: 3px 12px 3px 0;
+    line-height: 18px;
+    background-color: #e6e6e6;
+    color: #282c34;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 12px;
+  }
+}

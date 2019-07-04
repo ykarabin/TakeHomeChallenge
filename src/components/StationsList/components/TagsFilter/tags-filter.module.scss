@@ -1,0 +1,30 @@
+.Filter{
+  font-size: 12px;
+  padding: 0 0 10px;
+}
+
+.Tag {
+  display: inline-block;
+  margin: 3px 12px 3px 0;
+  cursor: pointer;
+
+  span{
+    padding: 0 5px;
+    line-height: 18px;
+    background-color: #7a7a7a;
+    color: #282c34;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  input{
+    display: none;
+  }
+
+  input:checked~span{
+    background-color: #e6e6e6;
+    color: #282c34;
+  }
+}
